@@ -1,0 +1,3 @@
+[submodule "JetBrainsRuntime"]
+	path = JetBrainsRuntime
+	url = https://github.com/JetBrains/JetBrainsRuntime.git

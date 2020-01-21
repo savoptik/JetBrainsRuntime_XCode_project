@@ -6,28 +6,61 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		FE71934923D71BD5008827FA /* SetConfig.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetConfig.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		FE71933A23D71913008827FA = {
 			isa = PBXGroup;
 			children = (
+				FE71934923D71BD5008827FA /* SetConfig.sh */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		FE71933F23D71913008827FA /* JetBrainsRuntime_XCode_project */ = {
+		FE71933F23D71913008827FA /* JetBrainsRuntime release */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = FE71934223D71913008827FA /* Build configuration list for PBXLegacyTarget "JetBrainsRuntime_XCode_project" */;
+			buildArgumentsString = "CONF=macosx-x86_64-normal-server-release images";
+			buildConfigurationList = FE71934223D71913008827FA /* Build configuration list for PBXLegacyTarget "JetBrainsRuntime release" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = ./JetBrainsRuntime/;
 			dependencies = (
 			);
-			name = JetBrainsRuntime_XCode_project;
+			name = "JetBrainsRuntime release";
 			passBuildSettingsInEnvironment = 1;
 			productName = JetBrainsRuntime_XCode_project;
+		};
+		FE71934523D71B02008827FA /* JetBrainsRuntime debug */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "CONF=macosx-x86_64-normal-server-fastdebug images";
+			buildConfigurationList = FE71934623D71B02008827FA /* Build configuration list for PBXLegacyTarget "JetBrainsRuntime debug" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = ./JetBrainsRuntime/;
+			dependencies = (
+			);
+			name = "JetBrainsRuntime debug";
+			passBuildSettingsInEnvironment = 1;
+			productName = "JetBrainsRuntime debug";
+		};
+		FE71934A23D72119008827FA /* SetConfiguration */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = FE71934B23D72119008827FA /* Build configuration list for PBXLegacyTarget "SetConfiguration" */;
+			buildPhases = (
+			);
+			buildToolPath = ./SetConfig.sh;
+			dependencies = (
+			);
+			name = SetConfiguration;
+			passBuildSettingsInEnvironment = 1;
+			productName = SetConfiguration;
 		};
 /* End PBXLegacyTarget section */
 
@@ -39,6 +72,12 @@
 				ORGANIZATIONNAME = "Артём Семёнов";
 				TargetAttributes = {
 					FE71933F23D71913008827FA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FE71934523D71B02008827FA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FE71934A23D72119008827FA = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -55,7 +94,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE71933F23D71913008827FA /* JetBrainsRuntime_XCode_project */,
+				FE71933F23D71913008827FA /* JetBrainsRuntime release */,
+				FE71934523D71B02008827FA /* JetBrainsRuntime debug */,
+				FE71934A23D72119008827FA /* SetConfiguration */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +234,60 @@
 			};
 			name = Release;
 		};
+		FE71934723D71B02008827FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE71934823D71B02008827FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE71934C23D72119008827FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE71934D23D72119008827FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -205,11 +300,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE71934223D71913008827FA /* Build configuration list for PBXLegacyTarget "JetBrainsRuntime_XCode_project" */ = {
+		FE71934223D71913008827FA /* Build configuration list for PBXLegacyTarget "JetBrainsRuntime release" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE71934323D71913008827FA /* Debug */,
 				FE71934423D71913008827FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE71934623D71B02008827FA /* Build configuration list for PBXLegacyTarget "JetBrainsRuntime debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE71934723D71B02008827FA /* Debug */,
+				FE71934823D71B02008827FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE71934B23D72119008827FA /* Build configuration list for PBXLegacyTarget "SetConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE71934C23D72119008827FA /* Debug */,
+				FE71934D23D72119008827FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
