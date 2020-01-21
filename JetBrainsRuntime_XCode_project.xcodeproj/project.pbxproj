@@ -6,16 +6,257 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FE71942B23D7255B008827FA /* CDragSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193DE23D7255B008827FA /* CDragSource.m */; };
+		FE71942C23D7255B008827FA /* CSystemColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193E323D7255B008827FA /* CSystemColors.m */; };
+		FE71942D23D7255B008827FA /* JavaTextAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193E423D7255B008827FA /* JavaTextAccessibility.m */; };
+		FE71942E23D7255B008827FA /* CDataTransferer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193E523D7255B008827FA /* CDataTransferer.m */; };
+		FE71942F23D7255B008827FA /* CGraphicsEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193E623D7255B008827FA /* CGraphicsEnv.m */; };
+		FE71943023D7255B008827FA /* CClipboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193E823D7255B008827FA /* CClipboard.m */; };
+		FE71943123D7255B008827FA /* CInputMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193EA23D7255B008827FA /* CInputMethod.m */; };
+		FE71943223D7255B008827FA /* awt_DrawingSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193EB23D7255B008827FA /* awt_DrawingSurface.m */; };
+		FE71943323D7255B008827FA /* SystemHotkey.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193EC23D7255B008827FA /* SystemHotkey.m */; };
+		FE71943423D7255B008827FA /* CMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193ED23D7255B008827FA /* CMenuItem.m */; };
+		FE71943523D7255B008827FA /* JavaAccessibilityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193EE23D7255B008827FA /* JavaAccessibilityUtilities.m */; };
+		FE71943623D7255B008827FA /* GeomUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193F123D7255B008827FA /* GeomUtilities.m */; };
+		FE71943723D7255B008827FA /* CDragSourceContextPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193F323D7255B008827FA /* CDragSourceContextPeer.m */; };
+		FE71943823D7255B008827FA /* PrinterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193F423D7255B008827FA /* PrinterView.m */; };
+		FE71943923D7255B008827FA /* CDropTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193F723D7255B008827FA /* CDropTarget.m */; };
+		FE71943A23D7255B008827FA /* OSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193FA23D7255B008827FA /* OSVersion.m */; };
+		FE71943B23D7255B008827FA /* CGraphicsDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7193FC23D7255B008827FA /* CGraphicsDevice.m */; };
+		FE71943C23D7255B008827FA /* CDesktopPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940023D7255B008827FA /* CDesktopPeer.m */; };
+		FE71943D23D7255B008827FA /* CTrayIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940223D7255B008827FA /* CTrayIcon.m */; };
+		FE71943E23D7255B008827FA /* CPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940423D7255B008827FA /* CPopupMenu.m */; };
+		FE71943F23D7255B008827FA /* QuartzRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940523D7255B008827FA /* QuartzRenderer.m */; };
+		FE71944023D7255B008827FA /* CImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940623D7255B008827FA /* CImage.m */; };
+		FE71944123D7255B008827FA /* CRobotKeyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940723D7255B008827FA /* CRobotKeyCode.m */; };
+		FE71944223D7255B008827FA /* PrinterSurfaceData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940B23D7255B008827FA /* PrinterSurfaceData.m */; };
+		FE71944323D7255B008827FA /* CPrinterJob.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940C23D7255B008827FA /* CPrinterJob.m */; };
+		FE71944423D7255B008827FA /* CMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940D23D7255B008827FA /* CMenuBar.m */; };
+		FE71944523D7255B008827FA /* QuartzSurfaceData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940E23D7255B008827FA /* QuartzSurfaceData.m */; };
+		FE71944623D7255B008827FA /* CMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71940F23D7255B008827FA /* CMenu.m */; };
+		FE71944723D7255B008827FA /* ImageSurfaceData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941023D7255B008827FA /* ImageSurfaceData.m */; };
+		FE71944823D7255B008827FA /* CCursorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941223D7255B008827FA /* CCursorManager.m */; };
+		FE71944923D7255B008827FA /* DnDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941323D7255B008827FA /* DnDUtilities.m */; };
+		FE71944A23D7255B008827FA /* CRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941423D7255B008827FA /* CRobot.m */; };
+		FE71944B23D7255B008827FA /* AWTSurfaceLayers.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941523D7255B008827FA /* AWTSurfaceLayers.m */; };
+		FE71944C23D7255B008827FA /* CFRetainedResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941623D7255B008827FA /* CFRetainedResource.m */; };
+		FE71944D23D7255B008827FA /* AWTView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941823D7255B008827FA /* AWTView.m */; };
+		FE71944E23D7255B008827FA /* CMenuComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941923D7255B008827FA /* CMenuComponent.m */; };
+		FE71944F23D7255B008827FA /* CWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941B23D7255B008827FA /* CWrapper.m */; };
+		FE71945023D7255B008827FA /* JavaAccessibilityAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941D23D7255B008827FA /* JavaAccessibilityAction.m */; };
+		FE71945123D7255B008827FA /* AWTEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71941E23D7255B008827FA /* AWTEvent.m */; };
+		FE71945223D7255B008827FA /* InitIDs.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942023D7255B008827FA /* InitIDs.m */; };
+		FE71945323D7255B008827FA /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942123D7255B008827FA /* ApplicationDelegate.m */; };
+		FE71945423D7255B008827FA /* CTextPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942223D7255B008827FA /* CTextPipe.m */; };
+		FE71945523D7255B008827FA /* PrintModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942423D7255B008827FA /* PrintModel.m */; };
+		FE71945623D7255B008827FA /* CDropTargetContextPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942623D7255B008827FA /* CDropTargetContextPeer.m */; };
+		FE71945723D7255B008827FA /* LWCToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942723D7255B008827FA /* LWCToolkit.m */; };
+		FE71945823D7255B008827FA /* AWTWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942823D7255B008827FA /* AWTWindow.m */; };
+		FE71945923D7255B008827FA /* CFileDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942923D7255B008827FA /* CFileDialog.m */; };
+		FE71945A23D7255B008827FA /* JavaComponentAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE71942A23D7255B008827FA /* JavaComponentAccessibility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE71935023D7236F008827FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		FE71934923D71BD5008827FA /* SetConfig.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetConfig.sh; sourceTree = "<group>"; };
+		FE71935223D7236F008827FA /* AutoComplition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = AutoComplition; path = /Users/artemsemenov/projects/JB/JetBrainsRuntime_XCode_project/build/Debug/AutoComplition; sourceTree = "<absolute>"; };
+		FE7193DC23D7255B008827FA /* DnDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DnDUtilities.h; sourceTree = "<group>"; };
+		FE7193DD23D7255B008827FA /* ImageSurfaceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSurfaceData.h; sourceTree = "<group>"; };
+		FE7193DE23D7255B008827FA /* CDragSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDragSource.m; sourceTree = "<group>"; };
+		FE7193DF23D7255B008827FA /* CMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMenu.h; sourceTree = "<group>"; };
+		FE7193E023D7255B008827FA /* CMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMenuBar.h; sourceTree = "<group>"; };
+		FE7193E123D7255B008827FA /* QuartzSurfaceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzSurfaceData.h; sourceTree = "<group>"; };
+		FE7193E223D7255B008827FA /* PrinterSurfaceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterSurfaceData.h; sourceTree = "<group>"; };
+		FE7193E323D7255B008827FA /* CSystemColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSystemColors.m; sourceTree = "<group>"; };
+		FE7193E423D7255B008827FA /* JavaTextAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaTextAccessibility.m; sourceTree = "<group>"; };
+		FE7193E523D7255B008827FA /* CDataTransferer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataTransferer.m; sourceTree = "<group>"; };
+		FE7193E623D7255B008827FA /* CGraphicsEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGraphicsEnv.m; sourceTree = "<group>"; };
+		FE7193E723D7255B008827FA /* CRobotKeyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRobotKeyCode.h; sourceTree = "<group>"; };
+		FE7193E823D7255B008827FA /* CClipboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CClipboard.m; sourceTree = "<group>"; };
+		FE7193E923D7255B008827FA /* CPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPopupMenu.h; sourceTree = "<group>"; };
+		FE7193EA23D7255B008827FA /* CInputMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CInputMethod.m; sourceTree = "<group>"; };
+		FE7193EB23D7255B008827FA /* awt_DrawingSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = awt_DrawingSurface.m; sourceTree = "<group>"; };
+		FE7193EC23D7255B008827FA /* SystemHotkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemHotkey.m; sourceTree = "<group>"; };
+		FE7193ED23D7255B008827FA /* CMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMenuItem.m; sourceTree = "<group>"; };
+		FE7193EE23D7255B008827FA /* JavaAccessibilityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaAccessibilityUtilities.m; sourceTree = "<group>"; };
+		FE7193EF23D7255B008827FA /* CMenuComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMenuComponent.h; sourceTree = "<group>"; };
+		FE7193F023D7255B008827FA /* AWTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTView.h; sourceTree = "<group>"; };
+		FE7193F123D7255B008827FA /* GeomUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeomUtilities.m; sourceTree = "<group>"; };
+		FE7193F223D7255B008827FA /* AWTSurfaceLayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTSurfaceLayers.h; sourceTree = "<group>"; };
+		FE7193F323D7255B008827FA /* CDragSourceContextPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDragSourceContextPeer.m; sourceTree = "<group>"; };
+		FE7193F423D7255B008827FA /* PrinterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterView.m; sourceTree = "<group>"; };
+		FE7193F523D7255B008827FA /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		FE7193F623D7255B008827FA /* InitIDs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitIDs.h; sourceTree = "<group>"; };
+		FE7193F723D7255B008827FA /* CDropTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDropTarget.m; sourceTree = "<group>"; };
+		FE7193F823D7255B008827FA /* JavaAccessibilityAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaAccessibilityAction.h; sourceTree = "<group>"; };
+		FE7193F923D7255B008827FA /* AWTEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTEvent.h; sourceTree = "<group>"; };
+		FE7193FA23D7255B008827FA /* OSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVersion.m; sourceTree = "<group>"; };
+		FE7193FB23D7255B008827FA /* JavaComponentAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaComponentAccessibility.h; sourceTree = "<group>"; };
+		FE7193FC23D7255B008827FA /* CGraphicsDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGraphicsDevice.m; sourceTree = "<group>"; };
+		FE7193FD23D7255B008827FA /* CFileDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFileDialog.h; sourceTree = "<group>"; };
+		FE7193FE23D7255B008827FA /* AWTWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTWindow.h; sourceTree = "<group>"; };
+		FE7193FF23D7255B008827FA /* LWCToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCToolkit.h; sourceTree = "<group>"; };
+		FE71940023D7255B008827FA /* CDesktopPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDesktopPeer.m; sourceTree = "<group>"; };
+		FE71940123D7255B008827FA /* PrintModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintModel.h; sourceTree = "<group>"; };
+		FE71940223D7255B008827FA /* CTrayIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTrayIcon.m; sourceTree = "<group>"; };
+		FE71940323D7255B008827FA /* CMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMenuItem.h; sourceTree = "<group>"; };
+		FE71940423D7255B008827FA /* CPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPopupMenu.m; sourceTree = "<group>"; };
+		FE71940523D7255B008827FA /* QuartzRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzRenderer.m; sourceTree = "<group>"; };
+		FE71940623D7255B008827FA /* CImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CImage.m; sourceTree = "<group>"; };
+		FE71940723D7255B008827FA /* CRobotKeyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRobotKeyCode.m; sourceTree = "<group>"; };
+		FE71940823D7255B008827FA /* CDataTransferer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataTransferer.h; sourceTree = "<group>"; };
+		FE71940923D7255B008827FA /* CSystemColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSystemColors.h; sourceTree = "<group>"; };
+		FE71940A23D7255B008827FA /* JavaTextAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaTextAccessibility.h; sourceTree = "<group>"; };
+		FE71940B23D7255B008827FA /* PrinterSurfaceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterSurfaceData.m; sourceTree = "<group>"; };
+		FE71940C23D7255B008827FA /* CPrinterJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPrinterJob.m; sourceTree = "<group>"; };
+		FE71940D23D7255B008827FA /* CMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMenuBar.m; sourceTree = "<group>"; };
+		FE71940E23D7255B008827FA /* QuartzSurfaceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzSurfaceData.m; sourceTree = "<group>"; };
+		FE71940F23D7255B008827FA /* CMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMenu.m; sourceTree = "<group>"; };
+		FE71941023D7255B008827FA /* ImageSurfaceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSurfaceData.m; sourceTree = "<group>"; };
+		FE71941123D7255B008827FA /* CDragSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDragSource.h; sourceTree = "<group>"; };
+		FE71941223D7255B008827FA /* CCursorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCursorManager.m; sourceTree = "<group>"; };
+		FE71941323D7255B008827FA /* DnDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DnDUtilities.m; sourceTree = "<group>"; };
+		FE71941423D7255B008827FA /* CRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRobot.m; sourceTree = "<group>"; };
+		FE71941523D7255B008827FA /* AWTSurfaceLayers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTSurfaceLayers.m; sourceTree = "<group>"; };
+		FE71941623D7255B008827FA /* CFRetainedResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFRetainedResource.m; sourceTree = "<group>"; };
+		FE71941723D7255B008827FA /* GeomUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeomUtilities.h; sourceTree = "<group>"; };
+		FE71941823D7255B008827FA /* AWTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTView.m; sourceTree = "<group>"; };
+		FE71941923D7255B008827FA /* CMenuComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMenuComponent.m; sourceTree = "<group>"; };
+		FE71941A23D7255B008827FA /* JavaAccessibilityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaAccessibilityUtilities.h; sourceTree = "<group>"; };
+		FE71941B23D7255B008827FA /* CWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWrapper.m; sourceTree = "<group>"; };
+		FE71941C23D7255B008827FA /* OSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVersion.h; sourceTree = "<group>"; };
+		FE71941D23D7255B008827FA /* JavaAccessibilityAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaAccessibilityAction.m; sourceTree = "<group>"; };
+		FE71941E23D7255B008827FA /* AWTEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTEvent.m; sourceTree = "<group>"; };
+		FE71941F23D7255B008827FA /* CDropTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDropTarget.h; sourceTree = "<group>"; };
+		FE71942023D7255B008827FA /* InitIDs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitIDs.m; sourceTree = "<group>"; };
+		FE71942123D7255B008827FA /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		FE71942223D7255B008827FA /* CTextPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTextPipe.m; sourceTree = "<group>"; };
+		FE71942323D7255B008827FA /* PrinterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterView.h; sourceTree = "<group>"; };
+		FE71942423D7255B008827FA /* PrintModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintModel.m; sourceTree = "<group>"; };
+		FE71942523D7255B008827FA /* CTrayIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTrayIcon.h; sourceTree = "<group>"; };
+		FE71942623D7255B008827FA /* CDropTargetContextPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDropTargetContextPeer.m; sourceTree = "<group>"; };
+		FE71942723D7255B008827FA /* LWCToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCToolkit.m; sourceTree = "<group>"; };
+		FE71942823D7255B008827FA /* AWTWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTWindow.m; sourceTree = "<group>"; };
+		FE71942923D7255B008827FA /* CFileDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFileDialog.m; sourceTree = "<group>"; };
+		FE71942A23D7255B008827FA /* JavaComponentAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaComponentAccessibility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE71934F23D7236F008827FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		FE71933A23D71913008827FA = {
 			isa = PBXGroup;
 			children = (
+				FE7193DB23D7255B008827FA /* awt */,
 				FE71934923D71BD5008827FA /* SetConfig.sh */,
 			);
+			sourceTree = "<group>";
+		};
+		FE7193DB23D7255B008827FA /* awt */ = {
+			isa = PBXGroup;
+			children = (
+				FE7193F523D7255B008827FA /* ApplicationDelegate.h */,
+				FE71942123D7255B008827FA /* ApplicationDelegate.m */,
+				FE7193EB23D7255B008827FA /* awt_DrawingSurface.m */,
+				FE7193F923D7255B008827FA /* AWTEvent.h */,
+				FE71941E23D7255B008827FA /* AWTEvent.m */,
+				FE7193F223D7255B008827FA /* AWTSurfaceLayers.h */,
+				FE71941523D7255B008827FA /* AWTSurfaceLayers.m */,
+				FE7193F023D7255B008827FA /* AWTView.h */,
+				FE71941823D7255B008827FA /* AWTView.m */,
+				FE7193FE23D7255B008827FA /* AWTWindow.h */,
+				FE71942823D7255B008827FA /* AWTWindow.m */,
+				FE7193E823D7255B008827FA /* CClipboard.m */,
+				FE71941223D7255B008827FA /* CCursorManager.m */,
+				FE71940823D7255B008827FA /* CDataTransferer.h */,
+				FE7193E523D7255B008827FA /* CDataTransferer.m */,
+				FE71940023D7255B008827FA /* CDesktopPeer.m */,
+				FE71941123D7255B008827FA /* CDragSource.h */,
+				FE7193DE23D7255B008827FA /* CDragSource.m */,
+				FE7193F323D7255B008827FA /* CDragSourceContextPeer.m */,
+				FE71941F23D7255B008827FA /* CDropTarget.h */,
+				FE7193F723D7255B008827FA /* CDropTarget.m */,
+				FE71942623D7255B008827FA /* CDropTargetContextPeer.m */,
+				FE7193FD23D7255B008827FA /* CFileDialog.h */,
+				FE71942923D7255B008827FA /* CFileDialog.m */,
+				FE71941623D7255B008827FA /* CFRetainedResource.m */,
+				FE7193FC23D7255B008827FA /* CGraphicsDevice.m */,
+				FE7193E623D7255B008827FA /* CGraphicsEnv.m */,
+				FE71940623D7255B008827FA /* CImage.m */,
+				FE7193EA23D7255B008827FA /* CInputMethod.m */,
+				FE7193DF23D7255B008827FA /* CMenu.h */,
+				FE71940F23D7255B008827FA /* CMenu.m */,
+				FE7193E023D7255B008827FA /* CMenuBar.h */,
+				FE71940D23D7255B008827FA /* CMenuBar.m */,
+				FE7193EF23D7255B008827FA /* CMenuComponent.h */,
+				FE71941923D7255B008827FA /* CMenuComponent.m */,
+				FE71940323D7255B008827FA /* CMenuItem.h */,
+				FE7193ED23D7255B008827FA /* CMenuItem.m */,
+				FE7193E923D7255B008827FA /* CPopupMenu.h */,
+				FE71940423D7255B008827FA /* CPopupMenu.m */,
+				FE71940C23D7255B008827FA /* CPrinterJob.m */,
+				FE71941423D7255B008827FA /* CRobot.m */,
+				FE7193E723D7255B008827FA /* CRobotKeyCode.h */,
+				FE71940723D7255B008827FA /* CRobotKeyCode.m */,
+				FE71940923D7255B008827FA /* CSystemColors.h */,
+				FE7193E323D7255B008827FA /* CSystemColors.m */,
+				FE71942223D7255B008827FA /* CTextPipe.m */,
+				FE71942523D7255B008827FA /* CTrayIcon.h */,
+				FE71940223D7255B008827FA /* CTrayIcon.m */,
+				FE71941B23D7255B008827FA /* CWrapper.m */,
+				FE7193DC23D7255B008827FA /* DnDUtilities.h */,
+				FE71941323D7255B008827FA /* DnDUtilities.m */,
+				FE71941723D7255B008827FA /* GeomUtilities.h */,
+				FE7193F123D7255B008827FA /* GeomUtilities.m */,
+				FE7193DD23D7255B008827FA /* ImageSurfaceData.h */,
+				FE71941023D7255B008827FA /* ImageSurfaceData.m */,
+				FE7193F623D7255B008827FA /* InitIDs.h */,
+				FE71942023D7255B008827FA /* InitIDs.m */,
+				FE7193F823D7255B008827FA /* JavaAccessibilityAction.h */,
+				FE71941D23D7255B008827FA /* JavaAccessibilityAction.m */,
+				FE71941A23D7255B008827FA /* JavaAccessibilityUtilities.h */,
+				FE7193EE23D7255B008827FA /* JavaAccessibilityUtilities.m */,
+				FE7193FB23D7255B008827FA /* JavaComponentAccessibility.h */,
+				FE71942A23D7255B008827FA /* JavaComponentAccessibility.m */,
+				FE71940A23D7255B008827FA /* JavaTextAccessibility.h */,
+				FE7193E423D7255B008827FA /* JavaTextAccessibility.m */,
+				FE7193FF23D7255B008827FA /* LWCToolkit.h */,
+				FE71942723D7255B008827FA /* LWCToolkit.m */,
+				FE71941C23D7255B008827FA /* OSVersion.h */,
+				FE7193FA23D7255B008827FA /* OSVersion.m */,
+				FE7193E223D7255B008827FA /* PrinterSurfaceData.h */,
+				FE71940B23D7255B008827FA /* PrinterSurfaceData.m */,
+				FE71942323D7255B008827FA /* PrinterView.h */,
+				FE7193F423D7255B008827FA /* PrinterView.m */,
+				FE71940123D7255B008827FA /* PrintModel.h */,
+				FE71942423D7255B008827FA /* PrintModel.m */,
+				FE71940523D7255B008827FA /* QuartzRenderer.m */,
+				FE7193E123D7255B008827FA /* QuartzSurfaceData.h */,
+				FE71940E23D7255B008827FA /* QuartzSurfaceData.m */,
+				FE7193EC23D7255B008827FA /* SystemHotkey.m */,
+			);
+			name = awt;
+			path = JetBrainsRuntime/src/java.desktop/macosx/native/libawt_lwawt/awt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,6 +305,26 @@
 		};
 /* End PBXLegacyTarget section */
 
+/* Begin PBXNativeTarget section */
+		FE71935123D7236F008827FA /* AutoComplition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE71935723D7236F008827FA /* Build configuration list for PBXNativeTarget "AutoComplition" */;
+			buildPhases = (
+				FE71934E23D7236F008827FA /* Sources */,
+				FE71934F23D7236F008827FA /* Frameworks */,
+				FE71935023D7236F008827FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoComplition;
+			productName = AutoComplition;
+			productReference = FE71935223D7236F008827FA /* AutoComplition */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
 		FE71933B23D71913008827FA /* Project object */ = {
 			isa = PBXProject;
@@ -80,6 +341,9 @@
 					FE71934A23D72119008827FA = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					FE71935123D7236F008827FA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = FE71933E23D71913008827FA /* Build configuration list for PBXProject "JetBrainsRuntime_XCode_project" */;
@@ -91,15 +355,75 @@
 				Base,
 			);
 			mainGroup = FE71933A23D71913008827FA;
+			productRefGroup = FE71933A23D71913008827FA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FE71933F23D71913008827FA /* JetBrainsRuntime release */,
 				FE71934523D71B02008827FA /* JetBrainsRuntime debug */,
 				FE71934A23D72119008827FA /* SetConfiguration */,
+				FE71935123D7236F008827FA /* AutoComplition */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE71934E23D7236F008827FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE71945223D7255B008827FA /* InitIDs.m in Sources */,
+				FE71944423D7255B008827FA /* CMenuBar.m in Sources */,
+				FE71945423D7255B008827FA /* CTextPipe.m in Sources */,
+				FE71943923D7255B008827FA /* CDropTarget.m in Sources */,
+				FE71945A23D7255B008827FA /* JavaComponentAccessibility.m in Sources */,
+				FE71943D23D7255B008827FA /* CTrayIcon.m in Sources */,
+				FE71943323D7255B008827FA /* SystemHotkey.m in Sources */,
+				FE71944723D7255B008827FA /* ImageSurfaceData.m in Sources */,
+				FE71943C23D7255B008827FA /* CDesktopPeer.m in Sources */,
+				FE71944123D7255B008827FA /* CRobotKeyCode.m in Sources */,
+				FE71943423D7255B008827FA /* CMenuItem.m in Sources */,
+				FE71945523D7255B008827FA /* PrintModel.m in Sources */,
+				FE71944C23D7255B008827FA /* CFRetainedResource.m in Sources */,
+				FE71942D23D7255B008827FA /* JavaTextAccessibility.m in Sources */,
+				FE71944923D7255B008827FA /* DnDUtilities.m in Sources */,
+				FE71943723D7255B008827FA /* CDragSourceContextPeer.m in Sources */,
+				FE71942E23D7255B008827FA /* CDataTransferer.m in Sources */,
+				FE71944A23D7255B008827FA /* CRobot.m in Sources */,
+				FE71942C23D7255B008827FA /* CSystemColors.m in Sources */,
+				FE71942F23D7255B008827FA /* CGraphicsEnv.m in Sources */,
+				FE71943623D7255B008827FA /* GeomUtilities.m in Sources */,
+				FE71943523D7255B008827FA /* JavaAccessibilityUtilities.m in Sources */,
+				FE71944823D7255B008827FA /* CCursorManager.m in Sources */,
+				FE71944623D7255B008827FA /* CMenu.m in Sources */,
+				FE71945623D7255B008827FA /* CDropTargetContextPeer.m in Sources */,
+				FE71944523D7255B008827FA /* QuartzSurfaceData.m in Sources */,
+				FE71943123D7255B008827FA /* CInputMethod.m in Sources */,
+				FE71945823D7255B008827FA /* AWTWindow.m in Sources */,
+				FE71944223D7255B008827FA /* PrinterSurfaceData.m in Sources */,
+				FE71943023D7255B008827FA /* CClipboard.m in Sources */,
+				FE71945723D7255B008827FA /* LWCToolkit.m in Sources */,
+				FE71944323D7255B008827FA /* CPrinterJob.m in Sources */,
+				FE71943B23D7255B008827FA /* CGraphicsDevice.m in Sources */,
+				FE71943E23D7255B008827FA /* CPopupMenu.m in Sources */,
+				FE71944F23D7255B008827FA /* CWrapper.m in Sources */,
+				FE71943823D7255B008827FA /* PrinterView.m in Sources */,
+				FE71945123D7255B008827FA /* AWTEvent.m in Sources */,
+				FE71942B23D7255B008827FA /* CDragSource.m in Sources */,
+				FE71945023D7255B008827FA /* JavaAccessibilityAction.m in Sources */,
+				FE71944B23D7255B008827FA /* AWTSurfaceLayers.m in Sources */,
+				FE71943A23D7255B008827FA /* OSVersion.m in Sources */,
+				FE71943F23D7255B008827FA /* QuartzRenderer.m in Sources */,
+				FE71945923D7255B008827FA /* CFileDialog.m in Sources */,
+				FE71944D23D7255B008827FA /* AWTView.m in Sources */,
+				FE71943223D7255B008827FA /* awt_DrawingSurface.m in Sources */,
+				FE71944E23D7255B008827FA /* CMenuComponent.m in Sources */,
+				FE71945323D7255B008827FA /* ApplicationDelegate.m in Sources */,
+				FE71944023D7255B008827FA /* CImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		FE71934023D71913008827FA /* Debug */ = {
@@ -288,6 +612,30 @@
 			};
 			name = Release;
 		};
+		FE71935823D7236F008827FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE71935923D7236F008827FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +671,15 @@
 			buildConfigurations = (
 				FE71934C23D72119008827FA /* Debug */,
 				FE71934D23D72119008827FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE71935723D7236F008827FA /* Build configuration list for PBXNativeTarget "AutoComplition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE71935823D7236F008827FA /* Debug */,
+				FE71935923D7236F008827FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
