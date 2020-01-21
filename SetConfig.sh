@@ -12,8 +12,8 @@ cd ./JetBrainsRuntime/ &&
 bash configure --with-boot-jdk=/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home --disable-warnings-as-errors --enable-debug;
 bash configure --with-boot-jdk=/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home --disable-warnings-as-errors
 else
-git sumbmodule init
-git sumbmodule update
+git submodule init
+git submodule update
 cd ./JetBrainsRuntime/ &&
 bash configure --with-boot-jdk=/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home --disable-warnings-as-errors --enable-debug;
 bash configure --with-boot-jdk=/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home --disable-warnings-as-errors
