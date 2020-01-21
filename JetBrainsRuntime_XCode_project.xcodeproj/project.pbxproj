@@ -71,7 +71,6 @@
 
 /* Begin PBXFileReference section */
 		FE71934923D71BD5008827FA /* SetConfig.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetConfig.sh; sourceTree = "<group>"; };
-		FE71935223D7236F008827FA /* AutoComplition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = AutoComplition; path = /Users/artemsemenov/projects/JB/JetBrainsRuntime_XCode_project/build/Debug/AutoComplition; sourceTree = "<absolute>"; };
 		FE7193DC23D7255B008827FA /* DnDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DnDUtilities.h; sourceTree = "<group>"; };
 		FE7193DD23D7255B008827FA /* ImageSurfaceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSurfaceData.h; sourceTree = "<group>"; };
 		FE7193DE23D7255B008827FA /* CDragSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDragSource.m; sourceTree = "<group>"; };
@@ -151,6 +150,9 @@
 		FE71942823D7255B008827FA /* AWTWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTWindow.m; sourceTree = "<group>"; };
 		FE71942923D7255B008827FA /* CFileDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFileDialog.m; sourceTree = "<group>"; };
 		FE71942A23D7255B008827FA /* JavaComponentAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaComponentAccessibility.m; sourceTree = "<group>"; };
+		FE8AA67123D72D8E00CD3DC3 /* AutoComplition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AutoComplition; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8AA67223D738FB00CD3DC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE8AA67323D73B5900CD3DC3 /* CreateProjectInstruction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CreateProjectInstruction.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +169,11 @@
 		FE71933A23D71913008827FA = {
 			isa = PBXGroup;
 			children = (
+				FE8AA67223D738FB00CD3DC3 /* README.md */,
+				FE8AA67323D73B5900CD3DC3 /* CreateProjectInstruction.md */,
 				FE7193DB23D7255B008827FA /* awt */,
 				FE71934923D71BD5008827FA /* SetConfig.sh */,
+				FE8AA67123D72D8E00CD3DC3 /* AutoComplition */,
 			);
 			sourceTree = "<group>";
 		};
@@ -320,7 +325,7 @@
 			);
 			name = AutoComplition;
 			productName = AutoComplition;
-			productReference = FE71935223D7236F008827FA /* AutoComplition */;
+			productReference = FE8AA67123D72D8E00CD3DC3 /* AutoComplition */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
