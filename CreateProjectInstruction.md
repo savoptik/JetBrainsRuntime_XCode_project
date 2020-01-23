@@ -47,3 +47,5 @@
 ###Замечания
 
 Xcode БУдет автодополнять только C/C++ а так же Objective-C. Java код Xcode дополнять не будет.
+
+Готовый проект лежит тут: https://github.com/savoptik/JetBrainsRuntime_XCode_project/
