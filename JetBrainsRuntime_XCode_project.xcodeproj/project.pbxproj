@@ -152,7 +152,6 @@
 		FE71942A23D7255B008827FA /* JavaComponentAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaComponentAccessibility.m; sourceTree = "<group>"; };
 		FE8AA67123D72D8E00CD3DC3 /* AutoComplition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AutoComplition; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8AA67223D738FB00CD3DC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FE8AA67323D73B5900CD3DC3 /* CreateProjectInstruction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CreateProjectInstruction.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				FE8AA67223D738FB00CD3DC3 /* README.md */,
-				FE8AA67323D73B5900CD3DC3 /* CreateProjectInstruction.md */,
 				FE7193DB23D7255B008827FA /* awt */,
 				FE71934923D71BD5008827FA /* SetConfig.sh */,
 				FE8AA67123D72D8E00CD3DC3 /* AutoComplition */,
