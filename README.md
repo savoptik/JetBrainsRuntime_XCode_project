@@ -20,7 +20,7 @@ Be sure to post a branch for JBR.
 
 ## Development
 
-1.add the folder with the sources you need to the "AutoComplition" build target, this will allow xcode to autocomplete the code, by default the folder ```src/java.desktop/macosx/native``` is added;
+Add the folder with the sources you need to the "AutoComplition" build target, this will allow xcode to autocomplete the code, by default the folder ```src/java.desktop/macosx/native``` is added;
 
 ## Debugging
 
@@ -28,22 +28,23 @@ Be sure to post a branch for JBR.
 
 There are different ways to debug the JDK code, if you want your java sempl to be recompiled every time you run, then follow the instructions below, otherwise skip to the next heading.
 
-1.create in xcode a new target with external build tools;
-1.In the Build Tool field, specify the path, for example, to the Java compiler:
+1. Create in xcode a new target with external build tools;
+1. In the Build Tool field, specify the path, for example, to the Java compiler:
     ```
     JetBrainsRuntime/build/macosx-x86_64-normal-server-release/jdk/bin/javac
     ```
-1.in the Arguments field provide the arguments for the compiler
+1. In the Arguments field provide the arguments for the compiler
     ```
     -d build path/to/yor/main.java
-    ```1. Check the "Pass build settings in environment" box. ";
+    ```
+1. Check the "Pass build settings in environment" box. ";
 1. Build the appropriate build scheme.
 
 ### Running and Debugging
 
 If you created a build target, then edit its run scheme, otherwise edit the JBR debug, or JBR run scheme as follows:
 
-1. select "Run" from the side menu;
+1. Select "Run" from the side menu;
 1. On the "info" tab, set the "Executable" executable file "java" from the JBR you just compiled;
 1. On the "Arguments" tab, set be sure -cp, and the executable class;
 1. Run the edited scheme.
@@ -78,8 +79,7 @@ The parameters can be changed, but be sure to check for operability and set the 
 
 ## Разработка
 
-1. добавьте папку с необходимыми вам исходниками в цель сборки "AutoComplition", это позволит xcode автодополнять код, по умолчанию добавлена папка ```src/java.desktop/macosx/native```;
-
+1. Добавьте папку с необходимыми вам исходниками в цель сборки "AutoComplition", это позволит xcode автодополнять код, по умолчанию добавлена папка ```src/java.desktop/macosx/native```;
 
 ## Отладка
 
@@ -87,12 +87,12 @@ The parameters can be changed, but be sure to check for operability and set the 
 
 Отлаживать код JDK можно разными способами, если вы хотите вашь java sempl перекомпилировать при каждом запуске, то следуйте инструкциям ниже, иначе переходите к следующему заголовку.
 
-1. создайте в xcode новую цель с внешними инструментами сборки;
-1. в поле Build Tool укажите путь, к примеру, к джава компилятору:
+1. Создайте в xcode новую цель с внешними инструментами сборки;
+1. В поле Build Tool укажите путь, к примеру, к джава компилятору:
     ```
     JetBrainsRuntime/build/macosx-x86_64-normal-server-release/jdk/bin/javac
     ```
-1. в поле Arguments укажите аргументы для компилятора
+1. В поле Arguments укажите аргументы для компилятора
     ```
     -d build path/to/yor/main.java
     ```
@@ -103,7 +103,7 @@ The parameters can be changed, but be sure to check for operability and set the 
 
 Если вы создавали цель сборки, то отредактируйте её схему запуска, иначе отредактируйте схему запуска JBR debug, или JBR  следующим образом:
 
-1. выберите в боковом меню "Run";
+1. Выберите в боковом меню "Run";
 1. На вкладке "info" задайте "Executable" исполняемый файл "java" из собраной вами только что JBR;
 1. На вкладке "Arguments" задайте обязательно -cp, и исполняемый класс;
 1. Запустите отредактированную схему.
