@@ -1,5 +1,63 @@
 #  JetBrainsRuntime Xcode Project
 
+This project for Xcode allows you to debug the native JDK implementation for macOS
+
+## Building
+
+1. Clone the repository:
+    ```Bash
+    $ git clone -recorsive https://github.com/savoptik/JetBrainsRuntime_XCode_project.git
+    ```
+1. Make sure that in [script](SetConfig.sh) the JDK mapping matches the one you have. Otherwise, change it;
+1. Select the "SetConfiguration" build scheme and start the build. Xcode will set up configurations for the JDK build.
+1. Select the JDK configuration that suits you from the list of build schemes, if there are no schemes, then select "add configuration" and select the build target that suits your needs;
+1. Start the build. Xcode will display errors and warnings in the usual way.
+
+### Attention
+
+If the --recursive parameter was absent during cloning, the SetConfiguration script clones the JBR itself via HTTPS; for development, you may need to change the remote to SSH, as well as restart xcode, since xcode may decide the files are missing from disk.
+Be sure to post a branch for JBR.
+
+## Development
+
+1.add the folder with the sources you need to the "AutoComplition" build target, this will allow xcode to autocomplete the code, by default the folder ```src/java.desktop/macosx/native``` is added;
+
+## Debugging
+
+### Debugging with sample recompilation
+
+There are different ways to debug the JDK code, if you want your java sempl to be recompiled every time you run, then follow the instructions below, otherwise skip to the next heading.
+
+1.create in xcode a new target with external build tools;
+1.In the Build Tool field, specify the path, for example, to the Java compiler:
+    ```
+    JetBrainsRuntime/build/macosx-x86_64-normal-server-release/jdk/bin/javac
+    ```
+1.in the Arguments field provide the arguments for the compiler
+    ```
+    -d build path/to/yor/main.java
+    ```1. Check the "Pass build settings in environment" box. ";
+1. Build the appropriate build scheme.
+
+### Running and Debugging
+
+If you created a build target, then edit its run scheme, otherwise edit the JBR debug, or JBR run scheme as follows:
+
+1. select "Run" from the side menu;
+1. On the "info" tab, set the "Executable" executable file "java" from the JBR you just compiled;
+1. On the "Arguments" tab, set be sure -cp, and the executable class;
+1. Run the edited scheme.
+
+If you checked the "Debug executable" checkbox, then java will start in LLDB, and immediately stop, then tell LLDB the following
+```LLDB
+[lldb] pro hand -p true -s false SIGSEGV SIGBUS
+```
+Then restart the execution.
+
+The parameters can be changed, but be sure to check for operability and set the paths correctly.
+
+#  JetBrainsRuntime проект Xcode
+
 Этот проект для Xcode позволяет отлаживать нативную реализацию JDK для MacOS
 
 ## Сборка
