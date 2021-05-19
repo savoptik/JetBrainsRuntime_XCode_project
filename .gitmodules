@@ -1,3 +1,6 @@
 [submodule "JetBrainsRuntime"]
 	path = JetBrainsRuntime
 	url = https://github.com/JetBrains/JetBrainsRuntime.git
+[submodule "jdk"]
+	path = jdk
+	url = git@github.com:savoptik/jdk.git
