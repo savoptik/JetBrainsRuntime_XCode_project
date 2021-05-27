@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AccessibleTextTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>JetBrainsRuntime debug.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,11 +32,16 @@
 		<key>SetConfiguration.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FE094FA1265BB1DF008043CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FE71933F23D71913008827FA</key>
 		<dict>
 			<key>primary</key>

@@ -1892,6 +1892,8 @@
 		FE0E84E12656826300E54E25 /* JvmLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B4117265563D000A13D3A /* JvmLauncher.h */; };
 		FE0E84E22656826300E54E25 /* management_ext.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B2E44265563C700A13D3A /* management_ext.h */; };
 		FE0E84E52656886D00E54E25 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0E84E42656886D00E54E25 /* AppKit.framework */; };
+		FE4AC5A72657DE0F006C52A1 /* NavigableTextAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */; };
+		FE4AC5A82657DE0F006C52A1 /* NavigableTextAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */; };
 		FE71B58226565FC00059CB05 /* CFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B52A7265563DC00A13D3A /* CFileManager.m */; };
 		FE71B58326565FC00059CB05 /* jawt.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B52A9265563DC00A13D3A /* jawt.m */; };
 		FE71B58426565FC00059CB05 /* ButtonAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B532B265563DD00A13D3A /* ButtonAccessibility.m */; };
@@ -1999,6 +2001,8 @@
 		FE71B5EA26565FC00059CB05 /* JRSUIConstantSync.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5372265563DD00A13D3A /* JRSUIConstantSync.m */; };
 		FE71B5EB26565FC00059CB05 /* AquaLookAndFeel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5373265563DD00A13D3A /* AquaLookAndFeel.m */; };
 		FE71B5EC26565FC00059CB05 /* ScreenMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5374265563DD00A13D3A /* ScreenMenu.m */; };
+		FEA166F9265FB32A00C28595 /* ComboBoxAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA166F7265FB32800C28595 /* ComboBoxAccessibility.m */; };
+		FEA166FA265FB32A00C28595 /* ComboBoxAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA166F8265FB32A00C28595 /* ComboBoxAccessibility.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -4044,8 +4048,12 @@
 		FE0B5A4D265563E100A13D3A /* splashscreen_gfx_impl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splashscreen_gfx_impl.c; sourceTree = "<group>"; };
 		FE0B5A4E265563E100A13D3A /* splashscreen_impl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splashscreen_impl.c; sourceTree = "<group>"; };
 		FE0E84E42656886D00E54E25 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigableTextAccessibility.m; sourceTree = "<group>"; };
+		FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigableTextAccessibility.h; sourceTree = "<group>"; };
 		FE71934923D71BD5008827FA /* SetConfig.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetConfig.sh; sourceTree = "<group>"; };
 		FE8AA67223D738FB00CD3DC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FEA166F7265FB32800C28595 /* ComboBoxAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBoxAccessibility.m; sourceTree = "<group>"; };
+		FEA166F8265FB32A00C28595 /* ComboBoxAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboBoxAccessibility.h; sourceTree = "<group>"; };
 		FEC2EFC8264ABA55008C3CA6 /* AutoComplition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AutoComplition; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -6185,6 +6193,8 @@
 				FE0B532B265563DD00A13D3A /* ButtonAccessibility.m */,
 				FE0B5333265563DD00A13D3A /* CheckboxAccessibility.h */,
 				FE0B533E265563DD00A13D3A /* CheckboxAccessibility.m */,
+				FEA166F8265FB32A00C28595 /* ComboBoxAccessibility.h */,
+				FEA166F7265FB32800C28595 /* ComboBoxAccessibility.m */,
 				FE0B533F265563DD00A13D3A /* CommonComponentAccessibility.h */,
 				FE0B5332265563DD00A13D3A /* CommonComponentAccessibility.m */,
 				FE0B5331265563DD00A13D3A /* CommonTextAccessibility.h */,
@@ -6193,6 +6203,8 @@
 				FE0B532F265563DD00A13D3A /* IgnoreAccessibility.m */,
 				FE0B532D265563DD00A13D3A /* ImageAccessibility.h */,
 				FE0B5339265563DD00A13D3A /* ImageAccessibility.m */,
+				FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */,
+				FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */,
 				FE0B533C265563DD00A13D3A /* RadiobuttonAccessibility.h */,
 				FE0B532C265563DD00A13D3A /* RadiobuttonAccessibility.m */,
 				FE0B532A265563DD00A13D3A /* ScrollAreaAccessibility.h */,
@@ -6230,18 +6242,18 @@
 		FE0B535B265563DD00A13D3A /* libosxapp */ = {
 			isa = PBXGroup;
 			children = (
-				FE0B535C265563DD00A13D3A /* NSApplicationAWT.h */,
-				FE0B535D265563DD00A13D3A /* ThreadUtilities.m */,
-				FE0B535E265563DD00A13D3A /* JNIUtilities.m */,
-				FE0B535F265563DD00A13D3A /* QueuingApplicationDelegate.m */,
-				FE0B5360265563DD00A13D3A /* AWT_debug.m */,
-				FE0B5361265563DD00A13D3A /* PropertiesUtilities.m */,
-				FE0B5362265563DD00A13D3A /* ThreadUtilities.h */,
-				FE0B5363265563DD00A13D3A /* NSApplicationAWT.m */,
-				FE0B5364265563DD00A13D3A /* JNIUtilities.h */,
-				FE0B5365265563DD00A13D3A /* QueuingApplicationDelegate.h */,
-				FE0B5366265563DD00A13D3A /* PropertiesUtilities.h */,
 				FE0B5367265563DD00A13D3A /* AWT_debug.h */,
+				FE0B5360265563DD00A13D3A /* AWT_debug.m */,
+				FE0B5364265563DD00A13D3A /* JNIUtilities.h */,
+				FE0B535E265563DD00A13D3A /* JNIUtilities.m */,
+				FE0B535C265563DD00A13D3A /* NSApplicationAWT.h */,
+				FE0B5363265563DD00A13D3A /* NSApplicationAWT.m */,
+				FE0B5366265563DD00A13D3A /* PropertiesUtilities.h */,
+				FE0B5361265563DD00A13D3A /* PropertiesUtilities.m */,
+				FE0B5365265563DD00A13D3A /* QueuingApplicationDelegate.h */,
+				FE0B535F265563DD00A13D3A /* QueuingApplicationDelegate.m */,
+				FE0B5362265563DD00A13D3A /* ThreadUtilities.h */,
+				FE0B535D265563DD00A13D3A /* ThreadUtilities.m */,
 			);
 			path = libosxapp;
 			sourceTree = "<group>";
@@ -7956,6 +7968,7 @@
 				FE0E821D2656826000E54E25 /* vmStructs_bsd.hpp in Headers */,
 				FE0E821E2656826000E54E25 /* zPhysicalMemoryBacking_bsd.hpp in Headers */,
 				FE0E821F2656826000E54E25 /* semaphore_bsd.hpp in Headers */,
+				FE4AC5A82657DE0F006C52A1 /* NavigableTextAccessibility.h in Headers */,
 				FE0E82202656826000E54E25 /* c2_globals_bsd.hpp in Headers */,
 				FE0E82212656826000E54E25 /* PLATFORM_API_MacOSX_MidiUtils.h in Headers */,
 				FE0E82222656826000E54E25 /* PLATFORM_API_MacOSX_Utils.h in Headers */,
@@ -8391,6 +8404,7 @@
 				FE0E83D02656826200E54E25 /* ciderrs.h in Headers */,
 				FE0E83D12656826200E54E25 /* cidriver.h in Headers */,
 				FE0E83D22656826200E54E25 /* cidparse.h in Headers */,
+				FEA166FA265FB32A00C28595 /* ComboBoxAccessibility.h in Headers */,
 				FE0E83D32656826200E54E25 /* cidload.h in Headers */,
 				FE0E83D42656826200E54E25 /* afindic.h in Headers */,
 				FE0E83D52656826200E54E25 /* afdummy.h in Headers */,
@@ -8669,6 +8683,20 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXLegacyTarget section */
+		FE094FA1265BB1DF008043CE /* AccessibleTextTest */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-d jdk/build/tests a11y/AccessibleTextTest.java a11y/AccessibleComponentTest.java";
+			buildConfigurationList = FE094FA4265BB1DF008043CE /* Build configuration list for PBXLegacyTarget "AccessibleTextTest" */;
+			buildPhases = (
+			);
+			buildToolPath = "jdk/build/macosx-x86_64-server-release/jdk/bin/javac";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = AccessibleTextTest;
+			passBuildSettingsInEnvironment = 1;
+			productName = AccessibleTextTest;
+		};
 		FE71933F23D71913008827FA /* OpenJDK release */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "CONF=macosx-x86_64-server-release images";
@@ -8740,6 +8768,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Артём Семёнов";
 				TargetAttributes = {
+					FE094FA1265BB1DF008043CE = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					FE71933F23D71913008827FA = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -8771,6 +8802,7 @@
 				FE71934523D71B02008827FA /* OpenJDK debug */,
 				FE71934A23D72119008827FA /* SetConfiguration */,
 				FE71935123D7236F008827FA /* AutoComplition */,
+				FE094FA1265BB1DF008043CE /* AccessibleTextTest */,
 			);
 		};
 /* End PBXProject section */
@@ -9101,6 +9133,7 @@
 				FE0E7EC4265681FD00E54E25 /* perfMemory_posix.cpp in Sources */,
 				FE0E7EC5265681FD00E54E25 /* semaphore_bsd.cpp in Sources */,
 				FE0E7EC6265681FD00E54E25 /* decoder_machO.cpp in Sources */,
+				FE4AC5A72657DE0F006C52A1 /* NavigableTextAccessibility.m in Sources */,
 				FE0E7EC7265681FD00E54E25 /* threadCritical_bsd.cpp in Sources */,
 				FE0E7EC8265681FD00E54E25 /* os_bsd.cpp in Sources */,
 				FE0E7EC9265681FD00E54E25 /* attachListener_bsd.cpp in Sources */,
@@ -9728,6 +9761,7 @@
 				FE71B5E226565FC00059CB05 /* AWT_debug.m in Sources */,
 				FE71B5E326565FC00059CB05 /* PropertiesUtilities.m in Sources */,
 				FE71B5E426565FC00059CB05 /* NSApplicationAWT.m in Sources */,
+				FEA166F9265FB32A00C28595 /* ComboBoxAccessibility.m in Sources */,
 				FE71B5E526565FC00059CB05 /* splashscreen_sys.m in Sources */,
 				FE71B5E626565FC00059CB05 /* JRSUIController.m in Sources */,
 				FE71B5E726565FC00059CB05 /* AquaFileView.m in Sources */,
@@ -9742,6 +9776,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		FE094FA2265BB1DF008043CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE094FA3265BB1DF008043CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FE71934023D71913008827FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9955,6 +10018,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FE094FA4265BB1DF008043CE /* Build configuration list for PBXLegacyTarget "AccessibleTextTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE094FA2265BB1DF008043CE /* Debug */,
+				FE094FA3265BB1DF008043CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FE71933E23D71913008827FA /* Build configuration list for PBXProject "OpenJDK_XCode_project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
