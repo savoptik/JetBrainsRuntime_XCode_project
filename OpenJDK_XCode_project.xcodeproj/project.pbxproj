@@ -1892,6 +1892,10 @@
 		FE0E84E12656826300E54E25 /* JvmLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B4117265563D000A13D3A /* JvmLauncher.h */; };
 		FE0E84E22656826300E54E25 /* management_ext.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B2E44265563C700A13D3A /* management_ext.h */; };
 		FE0E84E52656886D00E54E25 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0E84E42656886D00E54E25 /* AppKit.framework */; };
+		FE2440D32660E4920036EAE0 /* ListAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2440CF2660E4890036EAE0 /* ListAccessibility.h */; };
+		FE2440D42660E4920036EAE0 /* ListRowAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2440D02660E48B0036EAE0 /* ListRowAccessibility.m */; };
+		FE2440D52660E4920036EAE0 /* ListAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2440D12660E48D0036EAE0 /* ListAccessibility.m */; };
+		FE2440D62660E4920036EAE0 /* ListRowAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2440D22660E4920036EAE0 /* ListRowAccessibility.h */; };
 		FE4AC5A72657DE0F006C52A1 /* NavigableTextAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */; };
 		FE4AC5A82657DE0F006C52A1 /* NavigableTextAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */; };
 		FE71B58226565FC00059CB05 /* CFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B52A7265563DC00A13D3A /* CFileManager.m */; };
@@ -2003,6 +2007,10 @@
 		FE71B5EC26565FC00059CB05 /* ScreenMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5374265563DD00A13D3A /* ScreenMenu.m */; };
 		FEA166F9265FB32A00C28595 /* ComboBoxAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA166F7265FB32800C28595 /* ComboBoxAccessibility.m */; };
 		FEA166FA265FB32A00C28595 /* ComboBoxAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA166F8265FB32A00C28595 /* ComboBoxAccessibility.h */; };
+		FEACC451265FC2600096B779 /* TabGroupAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FEACC44D265FC25A0096B779 /* TabGroupAccessibility.h */; };
+		FEACC452265FC2600096B779 /* TabButtonAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FEACC44E265FC25C0096B779 /* TabButtonAccessibility.h */; };
+		FEACC453265FC2600096B779 /* TabButtonAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACC44F265FC25E0096B779 /* TabButtonAccessibility.m */; };
+		FEACC454265FC2600096B779 /* TabGroupAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACC450265FC2600096B779 /* TabGroupAccessibility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -4048,12 +4056,20 @@
 		FE0B5A4D265563E100A13D3A /* splashscreen_gfx_impl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splashscreen_gfx_impl.c; sourceTree = "<group>"; };
 		FE0B5A4E265563E100A13D3A /* splashscreen_impl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splashscreen_impl.c; sourceTree = "<group>"; };
 		FE0E84E42656886D00E54E25 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FE2440CF2660E4890036EAE0 /* ListAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAccessibility.h; sourceTree = "<group>"; };
+		FE2440D02660E48B0036EAE0 /* ListRowAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListRowAccessibility.m; sourceTree = "<group>"; };
+		FE2440D12660E48D0036EAE0 /* ListAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListAccessibility.m; sourceTree = "<group>"; };
+		FE2440D22660E4920036EAE0 /* ListRowAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListRowAccessibility.h; sourceTree = "<group>"; };
 		FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigableTextAccessibility.m; sourceTree = "<group>"; };
 		FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigableTextAccessibility.h; sourceTree = "<group>"; };
 		FE71934923D71BD5008827FA /* SetConfig.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetConfig.sh; sourceTree = "<group>"; };
 		FE8AA67223D738FB00CD3DC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FEA166F7265FB32800C28595 /* ComboBoxAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBoxAccessibility.m; sourceTree = "<group>"; };
 		FEA166F8265FB32A00C28595 /* ComboBoxAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboBoxAccessibility.h; sourceTree = "<group>"; };
+		FEACC44D265FC25A0096B779 /* TabGroupAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabGroupAccessibility.h; sourceTree = "<group>"; };
+		FEACC44E265FC25C0096B779 /* TabButtonAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabButtonAccessibility.h; sourceTree = "<group>"; };
+		FEACC44F265FC25E0096B779 /* TabButtonAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabButtonAccessibility.m; sourceTree = "<group>"; };
+		FEACC450265FC2600096B779 /* TabGroupAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabGroupAccessibility.m; sourceTree = "<group>"; };
 		FEC2EFC8264ABA55008C3CA6 /* AutoComplition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AutoComplition; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -6203,6 +6219,10 @@
 				FE0B532F265563DD00A13D3A /* IgnoreAccessibility.m */,
 				FE0B532D265563DD00A13D3A /* ImageAccessibility.h */,
 				FE0B5339265563DD00A13D3A /* ImageAccessibility.m */,
+				FE2440CF2660E4890036EAE0 /* ListAccessibility.h */,
+				FE2440D12660E48D0036EAE0 /* ListAccessibility.m */,
+				FE2440D22660E4920036EAE0 /* ListRowAccessibility.h */,
+				FE2440D02660E48B0036EAE0 /* ListRowAccessibility.m */,
 				FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */,
 				FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */,
 				FE0B533C265563DD00A13D3A /* RadiobuttonAccessibility.h */,
@@ -6217,6 +6237,10 @@
 				FE0B5335265563DD00A13D3A /* SpinboxAccessibility.m */,
 				FE0B5338265563DD00A13D3A /* StaticTextAccessibility.h */,
 				FE0B5330265563DD00A13D3A /* StaticTextAccessibility.m */,
+				FEACC44E265FC25C0096B779 /* TabButtonAccessibility.h */,
+				FEACC44F265FC25E0096B779 /* TabButtonAccessibility.m */,
+				FEACC44D265FC25A0096B779 /* TabGroupAccessibility.h */,
+				FEACC450265FC2600096B779 /* TabGroupAccessibility.m */,
 			);
 			path = a11y;
 			sourceTree = "<group>";
@@ -7753,7 +7777,9 @@
 				FE0E81462656825F00E54E25 /* globalDefinitions_zero.hpp in Headers */,
 				FE0E81472656825F00E54E25 /* fakeStubFrame_zero.hpp in Headers */,
 				FE0E81482656825F00E54E25 /* entry_zero.hpp in Headers */,
+				FEACC452265FC2600096B779 /* TabButtonAccessibility.h in Headers */,
 				FE0E81492656825F00E54E25 /* copy_zero.hpp in Headers */,
+				FE2440D32660E4920036EAE0 /* ListAccessibility.h in Headers */,
 				FE0E814A2656825F00E54E25 /* foreign_globals_zero.hpp in Headers */,
 				FE0E814B2656825F00E54E25 /* interpreterFrame_zero.hpp in Headers */,
 				FE0E814C2656825F00E54E25 /* icache_zero.hpp in Headers */,
@@ -7902,6 +7928,7 @@
 				FE0E81DB2656826000E54E25 /* c1_MacroAssembler_aarch64.hpp in Headers */,
 				FE0E81DC2656826000E54E25 /* vmreg_aarch64.inline.hpp in Headers */,
 				FE0E81DD2656826000E54E25 /* interp_masm_aarch64.hpp in Headers */,
+				FE2440D62660E4920036EAE0 /* ListRowAccessibility.h in Headers */,
 				FE0E81DE2656826000E54E25 /* methodHandles_aarch64.hpp in Headers */,
 				FE0E81DF2656826000E54E25 /* c1_LIRAssembler_aarch64.hpp in Headers */,
 				FE0E81E02656826000E54E25 /* jniTypes_aarch64.hpp in Headers */,
@@ -8235,6 +8262,7 @@
 				FE0E83272656826100E54E25 /* mlib_ImageCreate.h in Headers */,
 				FE0E83282656826100E54E25 /* mlib_ImageCheck.h in Headers */,
 				FE0E83292656826100E54E25 /* mlib_sys.h in Headers */,
+				FEACC451265FC2600096B779 /* TabGroupAccessibility.h in Headers */,
 				FE0E832A2656826100E54E25 /* j2d_names.h in Headers */,
 				FE0E832B2656826100E54E25 /* mlib_ImageConvEdge.h in Headers */,
 				FE0E832C2656826100E54E25 /* mlib_ImageAffine.h in Headers */,
@@ -8738,6 +8766,34 @@
 			passBuildSettingsInEnvironment = 1;
 			productName = SetConfiguration;
 		};
+		FEA166FB265FBDAA00C28595 /* AccessibleComboBox */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-d jdk/build/tests a11y/AccessibleJComboboxTest.java a11y/AccessibleComponentTest.java";
+			buildConfigurationList = FEA166FC265FBDAA00C28595 /* Build configuration list for PBXLegacyTarget "AccessibleComboBox" */;
+			buildPhases = (
+			);
+			buildToolPath = "jdk/build/macosx-x86_64-server-release/jdk/bin/javac";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = AccessibleComboBox;
+			passBuildSettingsInEnvironment = 1;
+			productName = AccessibleTextTest;
+		};
+		FEACC455265FEB6F0096B779 /* AccessibleTabGroup */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-d jdk/build/tests a11y/AccessibleJTabbedPaneTest.java a11y/AccessibleComponentTest.java";
+			buildConfigurationList = FEACC456265FEB6F0096B779 /* Build configuration list for PBXLegacyTarget "AccessibleTabGroup" */;
+			buildPhases = (
+			);
+			buildToolPath = "jdk/build/macosx-x86_64-server-release/jdk/bin/javac";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = AccessibleTabGroup;
+			passBuildSettingsInEnvironment = 1;
+			productName = AccessibleTextTest;
+		};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
@@ -8803,6 +8859,8 @@
 				FE71934A23D72119008827FA /* SetConfiguration */,
 				FE71935123D7236F008827FA /* AutoComplition */,
 				FE094FA1265BB1DF008043CE /* AccessibleTextTest */,
+				FEA166FB265FBDAA00C28595 /* AccessibleComboBox */,
+				FEACC455265FEB6F0096B779 /* AccessibleTabGroup */,
 			);
 		};
 /* End PBXProject section */
@@ -9018,6 +9076,7 @@
 				FE0E7E51265681FD00E54E25 /* relocInfo_arm.cpp in Sources */,
 				FE0E7E52265681FD00E54E25 /* vm_version_arm_32.cpp in Sources */,
 				FE0E7E53265681FD00E54E25 /* c1_LIRAssembler_arm.cpp in Sources */,
+				FEACC453265FC2600096B779 /* TabButtonAccessibility.m in Sources */,
 				FE0E7E54265681FD00E54E25 /* nativeInst_arm_32.cpp in Sources */,
 				FE0E7E55265681FD00E54E25 /* vtableStubs_arm.cpp in Sources */,
 				FE0E7E56265681FD00E54E25 /* c1_LIR_arm.cpp in Sources */,
@@ -9109,6 +9168,7 @@
 				FE0E7EAC265681FD00E54E25 /* c2_MacroAssembler_aarch64.cpp in Sources */,
 				FE0E7EAD265681FD00E54E25 /* vm_version_aarch64.cpp in Sources */,
 				FE0E7EAE265681FD00E54E25 /* universalUpcallHandler_aarch64.cpp in Sources */,
+				FE2440D52660E4920036EAE0 /* ListAccessibility.m in Sources */,
 				FE0E7EAF265681FD00E54E25 /* vm_version_bsd_zero.cpp in Sources */,
 				FE0E7EB0265681FD00E54E25 /* os_bsd_zero.cpp in Sources */,
 				FE0E7EB1265681FD00E54E25 /* thread_bsd_zero.cpp in Sources */,
@@ -9296,6 +9356,7 @@
 				FE0E7F66265681FE00E54E25 /* psobjs.c in Sources */,
 				FE0E7F67265681FE00E54E25 /* psread.c in Sources */,
 				FE0E7F68265681FE00E54E25 /* psconv.c in Sources */,
+				FE2440D42660E4920036EAE0 /* ListRowAccessibility.m in Sources */,
 				FE0E7F69265681FE00E54E25 /* psauxmod.c in Sources */,
 				FE0E7F6A265681FE00E54E25 /* psstack.c in Sources */,
 				FE0E7F6B265681FE00E54E25 /* cffdecode.c in Sources */,
@@ -9487,6 +9548,7 @@
 				FE0E8025265681FF00E54E25 /* jcphuff.c in Sources */,
 				FE0E8026265681FF00E54E25 /* jmemmgr.c in Sources */,
 				FE0E8027265681FF00E54E25 /* jpegdecoder.c in Sources */,
+				FEACC454265FC2600096B779 /* TabGroupAccessibility.m in Sources */,
 				FE0E8028265681FF00E54E25 /* jcmarker.c in Sources */,
 				FE0E8029265681FF00E54E25 /* jquant2.c in Sources */,
 				FE0E802A265681FF00E54E25 /* jidctint.c in Sources */,
@@ -10015,6 +10077,64 @@
 			};
 			name = Release;
 		};
+		FEA166FD265FBDAA00C28595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEA166FE265FBDAA00C28595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEACC457265FEB6F0096B779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEACC458265FEB6F0096B779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -10068,6 +10188,24 @@
 			buildConfigurations = (
 				FE71935823D7236F008827FA /* Debug */,
 				FE71935923D7236F008827FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA166FC265FBDAA00C28595 /* Build configuration list for PBXLegacyTarget "AccessibleComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA166FD265FBDAA00C28595 /* Debug */,
+				FEA166FE265FBDAA00C28595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEACC456265FEB6F0096B779 /* Build configuration list for PBXLegacyTarget "AccessibleTabGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEACC457265FEB6F0096B779 /* Debug */,
+				FEACC458265FEB6F0096B779 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

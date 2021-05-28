@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AccessibleComboBox.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>AccessibleTabGroup.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>AccessibleTextTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -32,7 +42,7 @@
 		<key>SetConfiguration.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -53,6 +63,16 @@
 			<true/>
 		</dict>
 		<key>FE71935123D7236F008827FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEA166FB265FBDAA00C28595</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEACC455265FEB6F0096B779</key>
 		<dict>
 			<key>primary</key>
 			<true/>
