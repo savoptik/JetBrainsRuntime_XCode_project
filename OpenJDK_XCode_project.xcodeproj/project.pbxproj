@@ -1900,12 +1900,12 @@
 		FE4AC5A82657DE0F006C52A1 /* NavigableTextAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */; };
 		FE6B85A326629AF1004A4793 /* TableAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B859B26629AE5004A4793 /* TableAccessibility.h */; };
 		FE6B85A426629AF1004A4793 /* TableAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B859C26629AE7004A4793 /* TableAccessibility.m */; };
-		FE6B85A526629AF1004A4793 /* JavaCellAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B859D26629AE8004A4793 /* JavaCellAccessibility.h */; };
-		FE6B85A626629AF1004A4793 /* JavaTableRowAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B859E26629AEA004A4793 /* JavaTableRowAccessibility.h */; };
-		FE6B85A726629AF1004A4793 /* JavaColumnAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B859F26629AEC004A4793 /* JavaColumnAccessibility.h */; };
-		FE6B85A826629AF1004A4793 /* JavaColumnAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B85A026629AED004A4793 /* JavaColumnAccessibility.m */; };
-		FE6B85A926629AF1004A4793 /* JavaCellAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B85A126629AEF004A4793 /* JavaCellAccessibility.m */; };
-		FE6B85AA26629AF1004A4793 /* JavaTableRowAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B85A226629AF1004A4793 /* JavaTableRowAccessibility.m */; };
+		FE6B85A526629AF1004A4793 /* CellAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B859D26629AE8004A4793 /* CellAccessibility.h */; };
+		FE6B85A626629AF1004A4793 /* TableRowAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B859E26629AEA004A4793 /* TableRowAccessibility.h */; };
+		FE6B85A726629AF1004A4793 /* ColumnAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6B859F26629AEC004A4793 /* ColumnAccessibility.h */; };
+		FE6B85A826629AF1004A4793 /* ColumnAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B85A026629AED004A4793 /* ColumnAccessibility.m */; };
+		FE6B85A926629AF1004A4793 /* CellAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B85A126629AEF004A4793 /* CellAccessibility.m */; };
+		FE6B85AA26629AF1004A4793 /* TableRowAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B85A226629AF1004A4793 /* TableRowAccessibility.m */; };
 		FE6D7C4D26627C0A008AEB3F /* OutlineRowAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6D7C4926627C0A008AEB3F /* OutlineRowAccessibility.h */; };
 		FE6D7C4E26627C0A008AEB3F /* OutlineAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6D7C4A26627C0A008AEB3F /* OutlineAccessibility.h */; };
 		FE6D7C4F26627C0A008AEB3F /* OutlineRowAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7C4B26627C0A008AEB3F /* OutlineRowAccessibility.m */; };
@@ -4076,12 +4076,12 @@
 		FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigableTextAccessibility.h; sourceTree = "<group>"; };
 		FE6B859B26629AE5004A4793 /* TableAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableAccessibility.h; sourceTree = "<group>"; };
 		FE6B859C26629AE7004A4793 /* TableAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableAccessibility.m; sourceTree = "<group>"; };
-		FE6B859D26629AE8004A4793 /* JavaCellAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaCellAccessibility.h; sourceTree = "<group>"; };
-		FE6B859E26629AEA004A4793 /* JavaTableRowAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaTableRowAccessibility.h; sourceTree = "<group>"; };
-		FE6B859F26629AEC004A4793 /* JavaColumnAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaColumnAccessibility.h; sourceTree = "<group>"; };
-		FE6B85A026629AED004A4793 /* JavaColumnAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaColumnAccessibility.m; sourceTree = "<group>"; };
-		FE6B85A126629AEF004A4793 /* JavaCellAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaCellAccessibility.m; sourceTree = "<group>"; };
-		FE6B85A226629AF1004A4793 /* JavaTableRowAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaTableRowAccessibility.m; sourceTree = "<group>"; };
+		FE6B859D26629AE8004A4793 /* CellAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAccessibility.h; sourceTree = "<group>"; };
+		FE6B859E26629AEA004A4793 /* TableRowAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRowAccessibility.h; sourceTree = "<group>"; };
+		FE6B859F26629AEC004A4793 /* ColumnAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnAccessibility.h; sourceTree = "<group>"; };
+		FE6B85A026629AED004A4793 /* ColumnAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnAccessibility.m; sourceTree = "<group>"; };
+		FE6B85A126629AEF004A4793 /* CellAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAccessibility.m; sourceTree = "<group>"; };
+		FE6B85A226629AF1004A4793 /* TableRowAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRowAccessibility.m; sourceTree = "<group>"; };
 		FE6D7C4926627C0A008AEB3F /* OutlineRowAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineRowAccessibility.h; sourceTree = "<group>"; };
 		FE6D7C4A26627C0A008AEB3F /* OutlineAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineAccessibility.h; sourceTree = "<group>"; };
 		FE6D7C4B26627C0A008AEB3F /* OutlineRowAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineRowAccessibility.m; sourceTree = "<group>"; };
@@ -6231,8 +6231,12 @@
 			children = (
 				FE0B5336265563DD00A13D3A /* ButtonAccessibility.h */,
 				FE0B532B265563DD00A13D3A /* ButtonAccessibility.m */,
+				FE6B859D26629AE8004A4793 /* CellAccessibility.h */,
+				FE6B85A126629AEF004A4793 /* CellAccessibility.m */,
 				FE0B5333265563DD00A13D3A /* CheckboxAccessibility.h */,
 				FE0B533E265563DD00A13D3A /* CheckboxAccessibility.m */,
+				FE6B859F26629AEC004A4793 /* ColumnAccessibility.h */,
+				FE6B85A026629AED004A4793 /* ColumnAccessibility.m */,
 				FEA166F8265FB32A00C28595 /* ComboBoxAccessibility.h */,
 				FEA166F7265FB32800C28595 /* ComboBoxAccessibility.m */,
 				FE0B533F265563DD00A13D3A /* CommonComponentAccessibility.h */,
@@ -6243,14 +6247,6 @@
 				FE0B532F265563DD00A13D3A /* IgnoreAccessibility.m */,
 				FE0B532D265563DD00A13D3A /* ImageAccessibility.h */,
 				FE0B5339265563DD00A13D3A /* ImageAccessibility.m */,
-				FE6B859D26629AE8004A4793 /* JavaCellAccessibility.h */,
-				FE6B85A126629AEF004A4793 /* JavaCellAccessibility.m */,
-				FE6B859F26629AEC004A4793 /* JavaColumnAccessibility.h */,
-				FE6B85A026629AED004A4793 /* JavaColumnAccessibility.m */,
-				FE6B859B26629AE5004A4793 /* TableAccessibility.h */,
-				FE6B859C26629AE7004A4793 /* TableAccessibility.m */,
-				FE6B859E26629AEA004A4793 /* JavaTableRowAccessibility.h */,
-				FE6B85A226629AF1004A4793 /* JavaTableRowAccessibility.m */,
 				FE2440CF2660E4890036EAE0 /* ListAccessibility.h */,
 				FE2440D12660E48D0036EAE0 /* ListAccessibility.m */,
 				FE2440D22660E4920036EAE0 /* ListRowAccessibility.h */,
@@ -6277,6 +6273,10 @@
 				FEACC44F265FC25E0096B779 /* TabButtonAccessibility.m */,
 				FEACC44D265FC25A0096B779 /* TabGroupAccessibility.h */,
 				FEACC450265FC2600096B779 /* TabGroupAccessibility.m */,
+				FE6B859B26629AE5004A4793 /* TableAccessibility.h */,
+				FE6B859C26629AE7004A4793 /* TableAccessibility.m */,
+				FE6B859E26629AEA004A4793 /* TableRowAccessibility.h */,
+				FE6B85A226629AF1004A4793 /* TableRowAccessibility.m */,
 			);
 			path = a11y;
 			sourceTree = "<group>";
@@ -7703,7 +7703,7 @@
 				FE0E80D82656825F00E54E25 /* assembler_ppc.inline.hpp in Headers */,
 				FE0E80D92656825F00E54E25 /* c1_LIRAssembler_ppc.hpp in Headers */,
 				FE0E80DA2656825F00E54E25 /* macroAssembler_ppc.inline.hpp in Headers */,
-				FE6B85A626629AF1004A4793 /* JavaTableRowAccessibility.h in Headers */,
+				FE6B85A626629AF1004A4793 /* TableRowAccessibility.h in Headers */,
 				FE0E80DB2656825F00E54E25 /* c1_globals_ppc.hpp in Headers */,
 				FE0E80DC2656825F00E54E25 /* relocInfo_ppc.hpp in Headers */,
 				FE0E80DD2656825F00E54E25 /* methodHandles_ppc.hpp in Headers */,
@@ -8011,7 +8011,7 @@
 				FE0E82082656826000E54E25 /* vmStructs_bsd_aarch64.hpp in Headers */,
 				FE0E82092656826000E54E25 /* os_bsd_aarch64.hpp in Headers */,
 				FE0E820A2656826000E54E25 /* prefetch_bsd_aarch64.inline.hpp in Headers */,
-				FE6B85A726629AF1004A4793 /* JavaColumnAccessibility.h in Headers */,
+				FE6B85A726629AF1004A4793 /* ColumnAccessibility.h in Headers */,
 				FE0E820B2656826000E54E25 /* thread_bsd_aarch64.hpp in Headers */,
 				FE0E820C2656826000E54E25 /* orderAccess_bsd_aarch64.hpp in Headers */,
 				FE0E820D2656826000E54E25 /* copy_bsd_aarch64.inline.hpp in Headers */,
@@ -8639,7 +8639,7 @@
 				FE0E84772656826300E54E25 /* fontscaler.h in Headers */,
 				FE0E84782656826300E54E25 /* lcms2.h in Headers */,
 				FE0E84792656826300E54E25 /* lcms2_internal.h in Headers */,
-				FE6B85A526629AF1004A4793 /* JavaCellAccessibility.h in Headers */,
+				FE6B85A526629AF1004A4793 /* CellAccessibility.h in Headers */,
 				FE0E847A2656826300E54E25 /* lcms2_plugin.h in Headers */,
 				FE0E847B2656826300E54E25 /* pnginfo.h in Headers */,
 				FE0E847C2656826300E54E25 /* pngstruct.h in Headers */,
@@ -8935,11 +8935,11 @@
 				FE0E7D8B265681FC00E54E25 /* register_ppc.cpp in Sources */,
 				FE0E7D8C265681FC00E54E25 /* c1_FrameMap_ppc.cpp in Sources */,
 				FE0E7D8D265681FC00E54E25 /* c1_LinearScan_ppc.cpp in Sources */,
-				FE6B85AA26629AF1004A4793 /* JavaTableRowAccessibility.m in Sources */,
+				FE6B85AA26629AF1004A4793 /* TableRowAccessibility.m in Sources */,
 				FE0E7D8E265681FC00E54E25 /* jvmciCodeInstaller_ppc.cpp in Sources */,
 				FE0E7D8F265681FC00E54E25 /* assembler_ppc.cpp in Sources */,
 				FE0E7D90265681FC00E54E25 /* disassembler_ppc.cpp in Sources */,
-				FE6B85A926629AF1004A4793 /* JavaCellAccessibility.m in Sources */,
+				FE6B85A926629AF1004A4793 /* CellAccessibility.m in Sources */,
 				FE0E7D91265681FC00E54E25 /* templateTable_ppc_64.cpp in Sources */,
 				FE0E7D92265681FC00E54E25 /* interpreterRT_ppc.cpp in Sources */,
 				FE0E7D93265681FC00E54E25 /* templateInterpreterGenerator_ppc.cpp in Sources */,
@@ -9315,7 +9315,7 @@
 				FE0E7F00265681FE00E54E25 /* hb-shape-plan.cc in Sources */,
 				FE0E7F01265681FE00E54E25 /* hb-ot-shape-complex-use.cc in Sources */,
 				FE0E7F02265681FE00E54E25 /* hb-ot-metrics.cc in Sources */,
-				FE6B85A826629AF1004A4793 /* JavaColumnAccessibility.m in Sources */,
+				FE6B85A826629AF1004A4793 /* ColumnAccessibility.m in Sources */,
 				FE0E7F03265681FE00E54E25 /* hb-ot-shape-complex-arabic.cc in Sources */,
 				FE0E7F04265681FE00E54E25 /* hb-ot-layout.cc in Sources */,
 				FE0E7F05265681FE00E54E25 /* hb-ot-shape.cc in Sources */,
