@@ -8767,6 +8767,20 @@
 			passBuildSettingsInEnvironment = 1;
 			productName = AccessibleTextTest;
 		};
+		FE6B85AB2662B45A004A4793 /* AccessibleTable */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-d jdk/build/tests a11y/AccessibleJTreeTest.java a11y/AccessibleComponentTest.java";
+			buildConfigurationList = FE6B85AC2662B45A004A4793 /* Build configuration list for PBXLegacyTarget "AccessibleTable" */;
+			buildPhases = (
+			);
+			buildToolPath = "jdk/build/macosx-x86_64-server-release/jdk/bin/javac";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = AccessibleTable;
+			passBuildSettingsInEnvironment = 1;
+			productName = AccessibleTextTest;
+		};
 		FE6D7C4526627A34008AEB3F /* AccessibleTree */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "-d jdk/build/tests a11y/AccessibleJTreeTest.java a11y/AccessibleComponentTest.java";
@@ -8918,6 +8932,7 @@
 				FEA166FB265FBDAA00C28595 /* AccessibleComboBox */,
 				FEACC455265FEB6F0096B779 /* AccessibleTabGroup */,
 				FE6D7C4526627A34008AEB3F /* AccessibleTree */,
+				FE6B85AB2662B45A004A4793 /* AccessibleTable */,
 			);
 		};
 /* End PBXProject section */
@@ -9930,6 +9945,35 @@
 			};
 			name = Release;
 		};
+		FE6B85AD2662B45A004A4793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE6B85AE2662B45A004A4793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FE6D7C4726627A34008AEB3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10235,6 +10279,15 @@
 			buildConfigurations = (
 				FE094FA2265BB1DF008043CE /* Debug */,
 				FE094FA3265BB1DF008043CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6B85AC2662B45A004A4793 /* Build configuration list for PBXLegacyTarget "AccessibleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6B85AD2662B45A004A4793 /* Debug */,
+				FE6B85AE2662B45A004A4793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

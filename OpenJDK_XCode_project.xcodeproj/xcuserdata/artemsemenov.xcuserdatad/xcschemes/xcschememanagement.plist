@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>AccessibleTable.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>AccessibleTextTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,7 +32,7 @@
 		<key>AccessibleTree debug.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>AccessibleTree.xcscheme</key>
 		<dict>
@@ -57,7 +62,7 @@
 		<key>SetConfiguration.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -68,6 +73,11 @@
 			<true/>
 		</dict>
 		<key>FE2440D7266100A70036EAE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE6B85AB2662B45A004A4793</key>
 		<dict>
 			<key>primary</key>
 			<true/>
