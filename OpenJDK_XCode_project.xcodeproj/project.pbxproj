@@ -1898,6 +1898,10 @@
 		FE2440D62660E4920036EAE0 /* ListRowAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2440D22660E4920036EAE0 /* ListRowAccessibility.h */; };
 		FE4AC5A72657DE0F006C52A1 /* NavigableTextAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */; };
 		FE4AC5A82657DE0F006C52A1 /* NavigableTextAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */; };
+		FE6D7C4D26627C0A008AEB3F /* OutlineRowAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6D7C4926627C0A008AEB3F /* OutlineRowAccessibility.h */; };
+		FE6D7C4E26627C0A008AEB3F /* OutlineAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6D7C4A26627C0A008AEB3F /* OutlineAccessibility.h */; };
+		FE6D7C4F26627C0A008AEB3F /* OutlineRowAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7C4B26627C0A008AEB3F /* OutlineRowAccessibility.m */; };
+		FE6D7C5026627C0A008AEB3F /* OutlineAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D7C4C26627C0A008AEB3F /* OutlineAccessibility.m */; };
 		FE71B58226565FC00059CB05 /* CFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B52A7265563DC00A13D3A /* CFileManager.m */; };
 		FE71B58326565FC00059CB05 /* jawt.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B52A9265563DC00A13D3A /* jawt.m */; };
 		FE71B58426565FC00059CB05 /* ButtonAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B532B265563DD00A13D3A /* ButtonAccessibility.m */; };
@@ -4062,6 +4066,10 @@
 		FE2440D22660E4920036EAE0 /* ListRowAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListRowAccessibility.h; sourceTree = "<group>"; };
 		FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigableTextAccessibility.m; sourceTree = "<group>"; };
 		FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigableTextAccessibility.h; sourceTree = "<group>"; };
+		FE6D7C4926627C0A008AEB3F /* OutlineRowAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineRowAccessibility.h; sourceTree = "<group>"; };
+		FE6D7C4A26627C0A008AEB3F /* OutlineAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineAccessibility.h; sourceTree = "<group>"; };
+		FE6D7C4B26627C0A008AEB3F /* OutlineRowAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineRowAccessibility.m; sourceTree = "<group>"; };
+		FE6D7C4C26627C0A008AEB3F /* OutlineAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineAccessibility.m; sourceTree = "<group>"; };
 		FE71934923D71BD5008827FA /* SetConfig.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetConfig.sh; sourceTree = "<group>"; };
 		FE8AA67223D738FB00CD3DC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FEA166F7265FB32800C28595 /* ComboBoxAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBoxAccessibility.m; sourceTree = "<group>"; };
@@ -6225,6 +6233,10 @@
 				FE2440D02660E48B0036EAE0 /* ListRowAccessibility.m */,
 				FE4AC5A62657DE0F006C52A1 /* NavigableTextAccessibility.h */,
 				FE4AC5A52657DE0D006C52A1 /* NavigableTextAccessibility.m */,
+				FE6D7C4A26627C0A008AEB3F /* OutlineAccessibility.h */,
+				FE6D7C4C26627C0A008AEB3F /* OutlineAccessibility.m */,
+				FE6D7C4926627C0A008AEB3F /* OutlineRowAccessibility.h */,
+				FE6D7C4B26627C0A008AEB3F /* OutlineRowAccessibility.m */,
 				FE0B533C265563DD00A13D3A /* RadiobuttonAccessibility.h */,
 				FE0B532C265563DD00A13D3A /* RadiobuttonAccessibility.m */,
 				FE0B532A265563DD00A13D3A /* ScrollAreaAccessibility.h */,
@@ -8671,6 +8683,7 @@
 				FE0E84BE2656826300E54E25 /* log_messages.h in Headers */,
 				FE0E84BF2656826300E54E25 /* SDE.h in Headers */,
 				FE0E84C02656826300E54E25 /* vm_interface.h in Headers */,
+				FE6D7C4D26627C0A008AEB3F /* OutlineRowAccessibility.h in Headers */,
 				FE0E84C12656826300E54E25 /* ThreadGroupReferenceImpl.h in Headers */,
 				FE0E84C22656826300E54E25 /* util.h in Headers */,
 				FE0E84C32656826300E54E25 /* ReferenceTypeImpl.h in Headers */,
@@ -8701,6 +8714,7 @@
 				FE0E84DC2656826300E54E25 /* Log.h in Headers */,
 				FE0E84DD2656826300E54E25 /* ErrorHandling.h in Headers */,
 				FE0E84DE2656826300E54E25 /* SourceCodePos.h in Headers */,
+				FE6D7C4E26627C0A008AEB3F /* OutlineAccessibility.h in Headers */,
 				FE0E84DF2656826300E54E25 /* CfgFile.h in Headers */,
 				FE0E84E02656826300E54E25 /* AppLauncher.h in Headers */,
 				FE0E84E12656826300E54E25 /* JvmLauncher.h in Headers */,
@@ -8722,6 +8736,20 @@
 			dependencies = (
 			);
 			name = AccessibleTextTest;
+			passBuildSettingsInEnvironment = 1;
+			productName = AccessibleTextTest;
+		};
+		FE6D7C4526627A34008AEB3F /* AccessibleTree */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-d jdk/build/tests a11y/AccessibleJTreeTest.java a11y/AccessibleComponentTest.java";
+			buildConfigurationList = FE6D7C4626627A34008AEB3F /* Build configuration list for PBXLegacyTarget "AccessibleTree" */;
+			buildPhases = (
+			);
+			buildToolPath = "jdk/build/macosx-x86_64-server-release/jdk/bin/javac";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = AccessibleTree;
 			passBuildSettingsInEnvironment = 1;
 			productName = AccessibleTextTest;
 		};
@@ -8861,6 +8889,7 @@
 				FE094FA1265BB1DF008043CE /* AccessibleTextTest */,
 				FEA166FB265FBDAA00C28595 /* AccessibleComboBox */,
 				FEACC455265FEB6F0096B779 /* AccessibleTabGroup */,
+				FE6D7C4526627A34008AEB3F /* AccessibleTree */,
 			);
 		};
 /* End PBXProject section */
@@ -9103,6 +9132,7 @@
 				FE0E7E6B265681FD00E54E25 /* templateInterpreterGenerator_arm.cpp in Sources */,
 				FE0E7E6C265681FD00E54E25 /* interp_masm_arm.cpp in Sources */,
 				FE0E7E6D265681FD00E54E25 /* jvmciCodeInstaller_arm.cpp in Sources */,
+				FE6D7C5026627C0A008AEB3F /* OutlineAccessibility.m in Sources */,
 				FE0E7E6E265681FD00E54E25 /* assembler_arm.cpp in Sources */,
 				FE0E7E6F265681FD00E54E25 /* c1_FrameMap_arm.cpp in Sources */,
 				FE0E7E70265681FD00E54E25 /* c1_LinearScan_arm.cpp in Sources */,
@@ -9178,6 +9208,7 @@
 				FE0E7EB5265681FD00E54E25 /* thread_bsd_x86.cpp in Sources */,
 				FE0E7EB6265681FD00E54E25 /* vm_version_bsd_x86.cpp in Sources */,
 				FE0E7EB7265681FD00E54E25 /* thread_bsd_aarch64.cpp in Sources */,
+				FE6D7C4F26627C0A008AEB3F /* OutlineRowAccessibility.m in Sources */,
 				FE0E7EB8265681FD00E54E25 /* vm_version_bsd_aarch64.cpp in Sources */,
 				FE0E7EB9265681FD00E54E25 /* os_bsd_aarch64.cpp in Sources */,
 				FE0E7EBA265681FD00E54E25 /* jvm_posix.cpp in Sources */,
@@ -9867,6 +9898,35 @@
 			};
 			name = Release;
 		};
+		FE6D7C4726627A34008AEB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE6D7C4826627A34008AEB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3KRK236DU7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FE71934023D71913008827FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10143,6 +10203,15 @@
 			buildConfigurations = (
 				FE094FA2265BB1DF008043CE /* Debug */,
 				FE094FA3265BB1DF008043CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6D7C4626627A34008AEB3F /* Build configuration list for PBXLegacyTarget "AccessibleTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6D7C4726627A34008AEB3F /* Debug */,
+				FE6D7C4826627A34008AEB3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
