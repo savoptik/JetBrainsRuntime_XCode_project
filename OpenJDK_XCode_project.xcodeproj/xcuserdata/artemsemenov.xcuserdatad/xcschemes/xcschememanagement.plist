@@ -47,7 +47,7 @@
 		<key>JetBrainsRuntime release.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>OpenJDK debug.xcscheme_^#shared#^_</key>
 		<dict>
@@ -68,6 +68,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>FE094FA1265BB1DF008043CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE0BB21026651DB400E6BCC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
